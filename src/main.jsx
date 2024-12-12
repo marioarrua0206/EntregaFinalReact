@@ -6,13 +6,13 @@ import { initializeApp } from "firebase/app";
 
 
 const firebaseConfig = {
-  apiKey: import.meta.env.REACT_APP_API_KEY,
-  authDomain: import.meta.env.REACT_APP_AUTHDOMAIN,
-  projectId: import.meta.env.REACT_APP_PROJECTID,
-  storageBucket: import.meta.env.REACT_APP_STORAGEBUCKET,
-  messagingSenderId: import.meta.env.REACT_APP_REACT_APP_SENDERID,
-  appId: import.meta.env.REACT_APP_REACT_APP_APPID,
-  measurementId: import.meta.env.REACT_APP_REACT_APP_MID,
+  apiKey: import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTHDOMAIN,
+  projectId: import.meta.env.VITE_PROJECTID,
+  storageBucket: import.meta.env.VITE_STORAGEBUCKET,
+  messagingSenderId: import.meta.env.VITE_SENDERID,
+  appId: import.meta.env.VITE_APPID,
+  measurementId: import.meta.env.VITE_MID,
 };
 
 // Initialize Firebase
