@@ -2,7 +2,7 @@ import "./item.css"
 import { useContext } from "react";
 import { ItemsContext } from "../../context/ItemsContext";
 import { Link } from "react-router-dom";
-import { ItemCount } from '../itemcount/ ItemCount';
+import { ItemCount } from '../itemcount/ItemCount';
 import Swal from 'sweetalert2';
 
 
